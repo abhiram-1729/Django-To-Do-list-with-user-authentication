@@ -96,8 +96,23 @@ Make sure you have the following installed:
 4. **Push to your fork**  
 5. **Open a pull request**  
 
-## 📝 License  
-📜 This project is licensed under the **MIT License** - see the LICENSE file for details.  
+## Screenshots
+### This is the Login Page where we should add username and password
+![Screenshot 1](https://github.com/abhiram-1729/Django-To-Do-list-with-user-authentication/blob/main/images/login.png)
+### This is the registration section for the new users
+![Screenshot 2](https://github.com/abhiram-1729/Django-To-Do-list-with-user-authentication/blob/main/images/register.png)
+### user Tasks section
+![Screenshot 3](https://github.com/abhiram-1729/Django-To-Do-list-with-user-authentication/blob/main/images/tasks.png)
+### creation of the tasks section
+![Screenshot 4](https://chatgpt.com/c/67aa14e3-2bc0-800e-861e-6703e64b70a8)
+
+
+
+
+
+## Contact
+
+please feel free to contact me at abhiramrangoon@email.com.
 
 ---
 
