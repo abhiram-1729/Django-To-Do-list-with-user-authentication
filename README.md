@@ -104,7 +104,7 @@ Make sure you have the following installed:
 ### user Tasks section
 ![Screenshot 3](https://github.com/abhiram-1729/Django-To-Do-list-with-user-authentication/blob/main/images/tasks.png)
 ### creation of the tasks section
-![Screenshot 4](https://chatgpt.com/c/67aa14e3-2bc0-800e-861e-6703e64b70a8)
+![Screenshot 4](https://github.com/abhiram-1729/Django-To-Do-list-with-user-authentication/blob/main/images/new%20tasks%20creation.png)
 
 
 
