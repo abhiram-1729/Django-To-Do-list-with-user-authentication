@@ -67,89 +67,41 @@ Make sure you have the following installed:
 
 ---
 
-### ⚙️ Setting Up the Project  
+# 📌 Usage  
 
-#### **1️⃣ Create a Virtual Environment**  
-```bash
-python -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate  # Windows
+## 🔐 User Authentication  
+- **Register:** Users can create an account via a registration form.  
+- **Login:** Users can log in and access their tasks.  
+- **Logout:** Users can securely log out.  
 
-2️⃣ Install Django
-bash
-Copy
-Edit
-pip install django
-3️⃣ Create a Django Project
-bash
-Copy
-Edit
-django-admin startproject todoproject
-cd todoproject
-4️⃣ Create a Django App for Tasks
-bash
-Copy
-Edit
-python manage.py startapp tasks
-5️⃣ Add 'tasks' to Installed Apps in settings.py
-python
-Copy
-Edit
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-    'tasks',  # Add the tasks app
-]
-6️⃣ Run Initial Migrations
-bash
-Copy
-Edit
-python manage.py migrate
-7️⃣ Create a Superuser for Admin Panel
-bash
-Copy
-Edit
-python manage.py createsuperuser
-Follow the prompts to set up the admin user.
+## 📌 Managing Tasks  
+- ➕ **Create Tasks:** Users can add new tasks by providing a title and description.  
+- 👀 **View Tasks:** Users can see their tasks categorized as pending or completed.  
+- ✏️ **Update Tasks:** Users can edit tasks or mark them as completed.  
+- 🗑 **Delete Tasks:** Users can delete tasks when they are no longer needed.  
 
-8️⃣ Run the Development Server
-bash
-Copy
-Edit
-python manage.py runserver
-📌 Open http://127.0.0.1:8000/ in your web browser.
+## 🔮 Next Steps  
+🚀 **Future improvements for the project:**  
 
-📌 Usage
-🔐 User Authentication
-Register: Users can create an account via a registration form.
-Login: Users can log in and access their tasks.
-Logout: Users can securely log out.
-📌 Managing Tasks
-➕ Create Tasks: Users can add new tasks by providing a title and description.
-👀 View Tasks: Users can see their tasks categorized as pending or completed.
-✏️ Update Tasks: Users can edit tasks or mark them as completed.
-🗑 Delete Tasks: Users can delete tasks when they are no longer needed.
-🔮 Next Steps
-🚀 Future improvements for the project:
+- ⏳ **Task Due Dates & Notifications:** Add due dates for tasks with reminders or notifications.  
+- 📌 **Task Priority Levels:** Implement task priorities (High, Medium, Low).  
+- 📱 **API Support:** Use Django REST Framework (DRF) to create an API for mobile support or external integrations.  
 
-⏳ Task Due Dates & Notifications: Add due dates for tasks with reminders or notifications.
-📌 Task Priority Levels: Implement task priorities (High, Medium, Low).
-📱 API Support: Use Django REST Framework (DRF) to create an API for mobile support or external integrations.
-💡 Contributing
-🔹 Contributions are welcome!
+## 💡 Contributing  
+🔹 **Contributions are welcome!**  
 
-Fork the repository
-Create a new branch (feature-branch)
-Commit changes
-Push to your fork
-Open a pull request
-📝 License
-📜 This project is licensed under the MIT License - see the LICENSE file for details.
+1. **Fork** the repository  
+2. **Create a new branch** (`feature-branch`)  
+3. **Commit changes**  
+4. **Push to your fork**  
+5. **Open a pull request**  
 
-👨‍💻 Developed with ❤️ using Django
+## 📝 License  
+📜 This project is licensed under the **MIT License** - see the LICENSE file for details.  
 
-⭐ If you like this project, consider giving it a star on GitHub! ⭐
+---
+
+👨‍💻 **Developed with ❤️ using Django**  
+⭐ If you like this project, consider giving it a **star** on GitHub! ⭐
+
+
