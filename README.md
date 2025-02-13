@@ -16,8 +16,6 @@ A **To-Do List Web Application** built using **Django** that allows users to **r
   - [📌 Managing Tasks](#-managing-tasks)  
 - [🔮 Next Steps](#-next-steps)  
 - [💡 Contributing](#-contributing)  
-- [📝 License](#-license)  
-
 ---
 
 ## 📖 Introduction  
